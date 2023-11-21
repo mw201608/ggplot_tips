@@ -8,3 +8,8 @@ Don't clip text outside of plot panel
 ```
 ggplot(...) + coord_cartesian(clip = 'off')
 ```
+
+Change legend font size and number of columns
+```
+guides(color = guide_legend(override.aes = list(size = 2), ncol = 2))
+```
